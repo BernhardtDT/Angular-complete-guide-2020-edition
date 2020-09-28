@@ -6,10 +6,9 @@ import {
   HttpParams
 } from '@angular/common/http';
 import { take, exhaustMap, map } from 'rxjs/operators';
-
-import { AuthService } from './auth.service';
 import { Store } from '@ngrx/store';
 
+import { AuthService } from './auth.service';
 import * as fromApp from '../store/app.reducer';
 
 @Injectable()
